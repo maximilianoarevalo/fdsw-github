@@ -11,6 +11,10 @@ body {
   background-position: 10% 37%;
 }
 
+#Hero-Section .btn:hover{
+  color: white !important;
+}
+
 /* Mis trabajos */
 
 #Mis-trabajos .image-top {
