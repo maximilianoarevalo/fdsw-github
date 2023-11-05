@@ -24,6 +24,18 @@ body {
   text-align: center;
 }
 
+#accordionFormacion .accordion-button{
+  font-size: 17px;
+}
+
+#accordionFormacion .accordion-collapse{
+  display: none;
+}
+
+#accordionFormacion .accordion-item:hover .accordion-collapse{
+  display: block;
+}
+
 /* Contacto */
 
 #Contacto form label {
