@@ -24,6 +24,8 @@ body {
   text-align: center;
 }
 
+/* Formacion */
+
 #accordionFormacion .accordion-button{
   font-size: 17px;
 }
@@ -34,6 +36,24 @@ body {
 
 #accordionFormacion .accordion-item:hover .accordion-collapse{
   display: block;
+}
+
+/* Experiencia */
+#accordionExperiencia .accordion-button{
+  font-size: 17px;
+}
+
+#accordionExperiencia .accordion-collapse{
+  display: none;
+}
+
+#accordionExperiencia .accordion-item:hover .accordion-collapse{
+  display: block;
+}
+
+#accordionExperiencia .tech-list{
+  list-style: none;
+  font-weight: bold;
 }
 
 /* Contacto */
